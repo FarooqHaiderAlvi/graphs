@@ -1,0 +1,44 @@
+
+A graph may or may not have a cycle.
+
+in graph , nodes are called vertex.
+
+we talk about graphs where we have networking involved.
+
+A complete graph is that in which each vertex is
+directly connected with other vertices.
+and in complete graph, if we have n vertices then
+there will be n(n-1)/2 edges.
+
+in directed complete graph if there are n verices,
+then there will be n(n-1) edges.
+
+in graph, we have only 2 traversals
+BFS(uses queue) and DFS(uses stack).
+  
+the two most common ways of implementing graphs are using adjacency matrices and using adjacency lists.
+
+ 
+we have two algorithms for finding 
+shortest path between verices(nodes) for single
+source shortcut path
+and for this purpose we have two algorithms
+1: Dijaktra's algo (do not consider negative weighted edges mainly concerned with time, cost and 
+these quantities can't be negative).
+2: Ballman ford algo (consider negative values also)
+
+
+minimum spanning tree:
+
+deriving a tree from a graph(a graph that have a cycle in it) with minimum cost.
+
+
+The two most common algorithms to find minimum spanning tree from a graph are
+
+Kruskal's algo
+Prim's algo
+
+
+
+
+
