@@ -39,6 +39,7 @@ Kruskal's algo
 Prim's algo
 
 
+We use BFS in Kruskal's algorithm
 
 
 
